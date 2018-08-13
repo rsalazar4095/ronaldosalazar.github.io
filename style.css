@@ -1,0 +1,72 @@
+body{
+    height: 96vh;
+    background-color: black;
+    color:white;
+}/* Each html */
+/* Beginnning of index.html */
+#symbol{
+    height: 200px;
+    width: 200px;
+}
+#left{
+    float: left;
+    height: 90vh;
+    width: 50%
+}
+
+#right{
+    float: right;
+    height: 90vh;
+    width: 50%;
+}
+#Section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 500px;
+    background-color:gray;
+    margin: 10%;
+    padding: 1%;
+    border: 0.5rem outset rgb(165, 150, 150);
+
+}
+.Section2{
+    background-color: grey;
+    border: 0.5rem outset rgb(165, 150, 150);
+    margin: 10%;
+    padding: 1%;
+    height: 30%;
+    width: 70%;
+
+}
+.Similar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of index.html*/
+footer{
+    background-color: gray;
+    height: 54px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.both{
+    height: 90vh;
+    width: 100%
+}
+.center{
+    text-align: center;
+}
+.box{
+    margin: 1%;
+    padding: 1%;
+    border: 0.5rem outset rgb(165, 150, 150);
+    background-color: gray;
+}
