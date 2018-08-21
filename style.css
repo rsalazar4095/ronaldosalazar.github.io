@@ -6,7 +6,7 @@ body{
 /* Beginnning of index.html */
 #symbol{
     height: 200px;
-    width: 200px;
+    width: 250px;
 }
 #left{
     float: left;
@@ -69,4 +69,7 @@ footer{
     padding: 1%;
     border: 0.5rem outset rgb(165, 150, 150);
     background-color: gray;
+}
+#left #Section1 #symbol{
+    transform: rotate(270deg);
 }
